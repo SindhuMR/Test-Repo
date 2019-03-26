@@ -1,0 +1,16 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<id>internship-project</id>
+  <sources>
+    <source>src/main/java/com/signify/internshipproject/controller/UserServlet.java</source>
+	<source>src/main/java/com/signify/internshipproject/dao/UserDAO.java</source>
+	<source>src/main/java/com/signify/internshipproject/daoImpl/UserDAOImpl.java</source>
+	<source>src/main/java/com/signify/internshipproject/DTO/UserDTO.java</source>
+	<source>src/main/java/com/signify/internshipproject/DTO/Users.java</source>
+	<source>src/main/java/com/signify/internshipproject/model/UserService.java</source>	
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
